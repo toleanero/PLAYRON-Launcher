@@ -2,6 +2,8 @@
 
 [English](#english) · [Русский](#русский)
 
+![PLAYRON — CS 1.6 server browser / Список серверов CS 1.6](launcher.png)
+
 ## English
 
 I built PLAYRON for a simple reason: I wanted to open one window, see which Counter-Strike 1.6 servers had players, and join with the copy of CS I already used.
