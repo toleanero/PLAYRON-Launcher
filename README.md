@@ -1,25 +1,37 @@
 # PLAYRON
 
-В Steam выбираешь один сервер CS 1.6, потом другой, а попадаешь в одно и то же место. Мне надоело натыкаться на зеркала, поэтому я взялся за PLAYRON. Хотелось быстрее найти, где поиграть, и зайти через свою CS.
+Я до сих пор захожу в Counter-Strike 1.6. Иногда хочется сыграть пару карт, иногда вернуться на сервер, где вчера хорошо поиграли. Мне хотелось сначала понять, куда сегодня зайти, а уже потом запускать игру. Так я взялся за PLAYRON.
 
 [Скачать PLAYRON 1.0.149 для Windows](https://github.com/toleanero/PLAYRON-Launcher/releases/tag/v1.0.149) | [English](#english)
 
-![Список серверов в PLAYRON 1.0.149](launcher.png)
+![PLAYRON 1.0.149](launcher.png)
 
-В PLAYRON видно карту, пинг и сколько игроков на сервере. Можно искать по карте, держать любимые серверы в избранном и подключаться через установленную сборку CS 1.6, в том числе через Steam.
+Если сегодня хочется Mansion, я могу найти эту карту в списке и посмотреть, где есть люди и какой там пинг. Если сервер понравился, сохраняю его в избранное. А если забыл, где играл вчера, могу посмотреть в истории. На этом для меня и держится смысл лаунчера. Быстро найти, где поиграть, и потом легко туда вернуться.
 
-Если играешь через Steam, рядом с игрой есть фильтр зеркал. Он использует брандмауэр Windows. Адрес конкретного сервера можно добавить в исключения. Спасибо Ch0wW за описание способа, с которого я начал. [Способ на GitHub](https://github.com/Ch0wW/goldsrc-fake-servers-firewall#the-solution)
+У многих уже стоит своя CS. Кто-то играет через Steam, кто-то давно пользуется одной и той же сборкой. В PLAYRON можно выбрать установленную игру и подключаться через неё. У каждой игры свои параметры запуска, их можно поправить прямо в списке. Есть и друзья с чатом, чтобы договориться, на какой сервер зайти вместе.
 
-[Поддержка](https://servers.playron.ru/support) | [Как работает фильтр](https://servers.playron.ru/mirrors/about)
+Позже я занялся зеркалами. В поиске Steam выбираешь два разных адреса, а оба ведут на один сервер. Для этого в PLAYRON появился отдельный фильтр. Он блокирует обращения к зеркалам через брандмауэр Windows. Если под блокировку попал нужный сервер, его можно добавить в исключения. [Как работает фильтр](https://servers.playron.ru/mirrors/about)
+
+### Спасибо Ch0wW
+
+Спасибо Ch0wW за разбор того, как блокировать зеркала через брандмауэр Windows. Именно с него я начал работу над фильтром PLAYRON. [Разбор Ch0wW на GitHub](https://github.com/Ch0wW/goldsrc-fake-servers-firewall#the-solution)
+
+Если что-то не получилось, напиши, какую версию PLAYRON и какую сборку CS используешь и что произошло. [Поддержка PLAYRON](https://servers.playron.ru/support)
 
 ## English
 
-I would pick one CS 1.6 server in Steam, then try another, and end up in the same place. I got tired of running into mirrors, so I started working on PLAYRON. I wanted to find a game quicker and join with the copy of CS I already had.
+I still play Counter-Strike 1.6. Some days I want to play a couple of maps. Other days I want to go back to the server where I had a good game the night before. I wanted to decide where to play before starting CS. That's how I got started with PLAYRON.
 
 [Download PLAYRON 1.0.149 for Windows](https://github.com/toleanero/PLAYRON-Launcher/releases/tag/v1.0.149)
 
-PLAYRON shows the map, ping and player count. You can search by map, save your favorite servers and join with your installed copy of CS 1.6, including the Steam version.
+If I feel like playing Mansion, I can look up the map and see which servers have players and what the ping is like. I save the servers I like to Favorites. If I forget where I played yesterday, I can look in History. That's what I wanted from the launcher in the first place. Find a server quickly and make it easy to go back.
 
-There's an optional mirror filter next to the Steam game entry. It uses Windows Firewall and lets you make exceptions for individual servers. Thanks to Ch0wW for sharing the approach that got me started. [Original write-up on GitHub](https://github.com/Ch0wW/goldsrc-fake-servers-firewall#the-solution)
+A lot of players already have a copy of CS they like. Some use Steam, others have been playing the same build for years. PLAYRON lets you pick the installed copy you want to join with and edit its launch options from the game list. There's also a friends list and chat if you want to decide where to play together.
 
-[Support](https://servers.playron.ru/support) | [How the filter works](https://servers.playron.ru/mirrors/about)
+I got to mirrors later. In the Steam browser, two different addresses can send you to the same server. PLAYRON has a separate filter for that. It uses Windows Firewall to block requests to mirrors. If it blocks a server you play on, you can add an exception. [How the filter works](https://servers.playron.ru/mirrors/about)
+
+### Thanks to Ch0wW
+
+Thanks to Ch0wW for explaining how to block mirrors with Windows Firewall. His write-up is where I started when I built the PLAYRON filter. [Ch0wW's write-up on GitHub](https://github.com/Ch0wW/goldsrc-fake-servers-firewall#the-solution)
+
+If something goes wrong, tell me what happened and which versions of PLAYRON and CS you're using. [PLAYRON support](https://servers.playron.ru/support)
