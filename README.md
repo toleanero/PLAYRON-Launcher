@@ -1,29 +1,57 @@
 # PLAYRON
 
-Друг зовёт сыграть в 1.6. Просишь скинуть IP, потом выясняешь, какую сборку ставить. Пока разберёшься, он уже на сервере. Вот эту часть мы хотели упростить, когда взялись за PLAYRON. Это лаунчер для серверов Counter-Strike 1.6 на Windows.
+32/32. Опять все места заняты. Можно, конечно, зайти на другой сервер, но ты обновляешь список и ждёшь, пока кто-нибудь выйдет. Потому что именно там играют свои. Знакомые ники, привычные карты, разговоры в микрофон. Кто-то уже который раунд подряд сидит с AWP, кто-то зовёт рашить B. Заходишь вроде ненадолго, а потом смотришь на часы и понимаешь, что просидел весь вечер.
 
-[Скачать PLAYRON 1.0.150](https://github.com/toleanero/PLAYRON-Launcher/releases/tag/v1.0.150) | [English](#english)
+[Скачать PLAYRON 1.0.150](https://github.com/toleanero/PLAYRON-Launcher/releases/tag/v1.0.150) · [English](#english)
 
 ![Список серверов CS 1.6 в PLAYRON 1.0.149](launcher.png)
 
-Уже можно найти сервер по карте или названию, посмотреть, сколько там игроков, и зайти через Steam или через сборку, которая у тебя стоит. Понравившийся сервер можно сохранить в избранном. Если забыл, где играл вчера, загляни в историю. Для каждой сборки можно сохранить свои параметры запуска.
+Наверное, у многих, кто вырос на CS 1.6, был такой сервер. И вспоминаешь потом не столько выигранные раунды, сколько людей, с которыми играл. С некоторыми даже никогда не встречался, но по нику узнавал сразу.
 
-Мы хотим собрать в одном лаунчере разные версии 1.6, сборки и неофициальные моды. Чтобы сегодня можно было зайти на знакомый сервер, а завтра попробовать мод, про который рассказал друг. На таких серверах годами собираются одни и те же люди. Кого-то знаешь только по нику, но всё равно рад, когда он заходит. Хочется, чтобы и через несколько лет можно было снова встретиться на карте. И чтобы тому, кто скачал 1.6 вчера, было к кому присоединиться.
+И ведь эта история до сих пор продолжается. В контре всё ещё работают обычные паблики, Zombie, Deathrun, GunGame и куча других серверов, которые игроки годами собирали и переделывали под себя. Кто-то пишет плагины, кто-то возится со сборками, кто-то оплачивает сервер и следит за порядком просто потому, что ему самому нравится здесь играть. Удивительно, сколько всего люди сделали для одной игры и продолжают делать.
 
-Когда делали фильтр зеркал для Steam, нам пригодился разбор Ch0wW. Он показал, как блокировать адреса зеркал через брандмауэр Windows. Спасибо, что выложил этот способ и объяснил, как он работает. [Разбор Ch0wW](https://github.com/Ch0wW/goldsrc-fake-servers-firewall#the-solution) | [Как устроен фильтр PLAYRON](https://servers.playron.ru/mirrors/about)
+А вот найти всё это стало не так просто. У каждого проекта свой сайт, свои сборки, свои способы подключения. Старые адреса теряются, поиск забит зеркалами, и порой больше времени уходит на поиски нормального сервера, чем на саму игру.
 
-[Серверы CS 1.6](https://servers.playron.ru/servers) | [Поддержка](https://servers.playron.ru/support) | [Обновления на форуме](https://playron.ru/forum/threads/3/)
+Так у нас и появилась идея PLAYRON. Мы хотим собрать серверы CS 1.6 в одном лаунчере, чтобы не приходилось каждый раз искать, где скачать нужную сборку и как попасть на интересующий сервер. И чтобы небольшие проекты, в которые люди вложили столько времени, тоже могли найти своих игроков.
+
+Пока мы только идём к этому. PLAYRON работает на Windows и уже умеет искать серверы по названию или карте, запускать игру через Steam или установленную сборку и сохранять любимые серверы в избранное. Постепенно расширяем поддержку других сборок и неофициальных модов. Хочется объединить их все, но пока это именно цель, а не готовая возможность.
+
+Отдельно занялись поддельными серверами-зеркалами, которые засоряют список Steam. Для известных зеркал сделали фильтр через брандмауэр Windows. Здесь хочется поблагодарить [Ch0wW](https://github.com/Ch0wW/goldsrc-fake-servers-firewall#the-solution), который подробно разобрал проблему и поделился способом её решения.
+
+Мы из СНГ, и для нас CS 1.6 всегда была чем-то большим, чем просто игра. Сейчас мы тратим на PLAYRON немало денег, хотя прекрасно понимаем, что, скорее всего, они никогда не вернутся. Наверное, кто-то скажет, что странно вкладывать столько сил и средств в игру, лучшие годы которой давно позади. И, возможно, будет прав.
+
+Пока вы смотрите в будущее, мы, похоже, всё ещё немного живём прошлым. Но знаете, мы бы просто не были собой, если бы однажды взяли и отказались от того, что когда-то сделало нас такими, какие мы есть.
+
+Мы понимаем, что прежние времена уже не вернуть. Да и не пытаемся. Но где-то прямо сейчас кто-то настраивает новый сервер, собирает друзей на вечер или просто ждёт, когда освободится место на любимом паблике.
+
+И нам хочется, чтобы таких вечеров у CS 1.6 было ещё много.
+
+[Серверы CS 1.6](https://servers.playron.ru/servers) · [Поддержка](https://servers.playron.ru/support) · [Обновления на форуме](https://playron.ru/forum/threads/3/)
 
 ## English
 
-A friend asks if you’re up for a game of 1.6. You ask for the IP, then try to figure out which build to install. By the time you've sorted that out, your friend's already on the server. That's the bit we wanted to make easier when we started PLAYRON, our Windows launcher for Counter-Strike 1.6 servers.
+32/32. Server full. Again. Sure, you could join another one, but instead you keep refreshing the list, waiting for someone to leave. Because that's where your people are. Familiar nicknames, familiar maps, everyone talking over their mics. Someone's been camping with an AWP for half the match, someone else is calling for another B rush. You only meant to play for a little while, but before you know it, the whole evening is gone.
 
 [Download PLAYRON 1.0.150](https://github.com/toleanero/PLAYRON-Launcher/releases/tag/v1.0.150)
 
-You can look up a server by map or name, see how many people are on, and join through Steam or the build you already have installed. Save the servers you like to Favorites. If you forget where you played last night, check your history. You can also save launch options for each build.
+A lot of us who grew up playing CS 1.6 probably remember a server like that. And years later, it's not always the rounds we won that we remember. It's the people we played with. Some we never even met outside the game, but we'd recognize their nicknames anywhere.
 
-We want to bring different versions of 1.6, custom builds, and unofficial mods into one launcher. You could drop by your usual server one night and try a mod a friend told you about the next. The same people have been meeting on some of these servers for years. You might only know someone by their screen name, and you’re still glad when they join. We’d like those players to be able to meet on a map years from now, and for someone who installed 1.6 yesterday to have people to play with.
+And people are still keeping that part of Counter-Strike alive. There are classic public servers, Zombie, Deathrun, GunGame, and countless others that players have spent years building and changing. Some write plugins, some put together custom builds, and some pay for hosting and look after their servers simply because they still love playing there. It's pretty amazing how much people have made for this game, and how much they're still making.
 
-Ch0wW's write-up came in handy when we built the Steam mirror filter. He showed how to block mirror addresses with Windows Firewall. Thanks for putting that out there and explaining how it works. [Ch0wW's write-up](https://github.com/Ch0wW/goldsrc-fake-servers-firewall#the-solution) | [How the PLAYRON filter works](https://servers.playron.ru/mirrors/about)
+Finding all of it, though, isn't always easy. Every community has its own website, its own builds, and sometimes its own way of connecting. Old server addresses get lost, fake mirrors clutter the server browser, and you can end up spending more time looking for a decent server than actually playing.
 
-[CS 1.6 servers](https://servers.playron.ru/servers) | [Support](https://servers.playron.ru/support) | [Release notes on the forum](https://playron.ru/forum/threads/3/)
+That's where the idea for PLAYRON came from. We want to bring CS 1.6 servers together in one launcher, so you don't have to hunt around for the right build or figure out how to join a server you've found. We also want smaller communities, where people have put so much of their own time into something, to have a better chance of finding players.
+
+We're still working toward that. PLAYRON runs on Windows, and you can already search for servers by name or map, join through Steam or an installed build, and save your favorites. We're gradually adding support for other builds and unofficial mods. We'd love to bring them all together, but we're not there yet.
+
+We've also worked on the fake server mirrors that clutter Steam's server list. PLAYRON has a separate filter that uses Windows Firewall to block known mirrors. Thanks to [Ch0wW](https://github.com/Ch0wW/goldsrc-fake-servers-firewall#the-solution) for investigating the problem and sharing a way to deal with it.
+
+We're from the CIS, and CS 1.6 has always meant more to us than just another game. We're spending a lot of money on PLAYRON, knowing full well that we'll probably never make it back. Some people might think it's strange to put so much time and money into a game whose best years are long behind it. And maybe they're right.
+
+While you're looking toward the future, maybe we're still living a little in the past. But we wouldn't really be ourselves if we could just walk away from something that helped make us who we are.
+
+We know we can't bring back the old days. We're not trying to. But somewhere, someone is setting up a new server, getting friends together for a few matches, or just waiting for a free slot on their favorite public server.
+
+We'd like CS 1.6 to have many more evenings like those.
+
+[CS 1.6 servers](https://servers.playron.ru/servers) · [Support](https://servers.playron.ru/support) · [Release notes on the forum](https://playron.ru/forum/threads/3/)
