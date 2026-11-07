@@ -4,7 +4,7 @@
 
 Сейчас, чтобы снова зайти в CS 1.6, иногда приходится сначала искать адрес в старой теме на форуме, потом скачивать сборку с сайта сервера. Ради этого мы и взялись за PLAYRON. Хотим, чтобы серверы, сборки и неофициальные моды CS 1.6 можно было найти в одном месте. Открыл лаунчер, выбрал сервер и зашёл через ту контру, которая у тебя стоит.
 
-[Скачать PLAYRON 1.0.150](https://github.com/toleanero/PLAYRON-Launcher/releases/tag/v1.0.150) · [English](#english)
+[Скачать PLAYRON 1.0.151](https://github.com/toleanero/PLAYRON-Launcher/releases/tag/v1.0.151) · [English](#english)
 
 ![Список серверов CS 1.6 в PLAYRON 1.0.149](launcher.png)
 
@@ -28,7 +28,7 @@
 
 Coming back to CS 1.6 can mean digging up a server address in an old forum thread, then going to the server's website for the right build. That's what got us working on PLAYRON. We want one place to find CS 1.6 servers, community builds, and unofficial mods. Pick a server and join with the copy of CS you already play.
 
-[Download PLAYRON 1.0.150](https://github.com/toleanero/PLAYRON-Launcher/releases/tag/v1.0.150)
+[Download PLAYRON 1.0.151](https://github.com/toleanero/PLAYRON-Launcher/releases/tag/v1.0.151)
 
 Right now you can look up a server by name or map, save it to your favorites, and join through Steam or an installed build. We're adding support for more builds and mods as we go. We'd like the list to have room for both the little Deathrun server someone's paid to keep running for years and the regular pub where friends meet up after dinner.
 
